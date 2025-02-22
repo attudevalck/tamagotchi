@@ -22,6 +22,7 @@ basic.forever(function () {
             # # # # #
             . . . . .
             `)
+        dood += 1
     } else if (voeding < 10 || knuffel < 10) {
         basic.showIcon(IconNames.Sad)
     } else if (voeding < 20 || knuffel < 20) {
@@ -36,10 +37,5 @@ basic.forever(function () {
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         voeding += 5
-    }
-})
-basic.forever(function () {
-    if (true) {
-    	
     }
 })
