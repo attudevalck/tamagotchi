@@ -38,6 +38,10 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (dood == 1) {
-    	
+        if (input.buttonIsPressed(Button.AB)) {
+            knuffel = 20
+            voeding = 20
+            dood = 0
+        }
     }
 })
